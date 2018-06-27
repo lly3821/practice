@@ -1,0 +1,70 @@
+.page{
+    float: left;
+    padding: 0;
+    list-style-type: none;
+    margin:0;
+}
+.page .ellipsis{
+    border:none ;
+    margin:0 10px;
+    cursor: default;
+}
+.page .ellipsis:hover,.ellipsis:active,.active{
+    background-color:#ffffff;
+    color: black
+}
+.page li{
+    float: left;
+    height: 21px;
+    width: auto;
+    border:1px solid lightgrey;
+    border-radius: 3px;
+    margin: 0 3px;
+    text-align: center;
+    cursor: pointer;
+    padding: 5px;
+}
+.page li:hover,li:active,.active{
+    background-color:#1f98fc;
+    color:#ffffff;
+}
+.pre,.next{
+    width: 58px;
+    height: 21px;
+    text-align: center;
+    padding:5px;
+    border-radius: 3px;
+    margin:0 10px 0 10px;
+    border:1px solid lightgrey;
+    cursor: pointer;
+    
+}
+.nomore{
+    color:#b5b5b5;
+    width: 58px;
+    height: 21px;
+}
+select{
+    float: left;
+    width: 80px;
+    height: 33px;
+    border:1px solid lightgrey;
+    border-radius: 3px;
+    font-size: 16px
+}
+.jump{
+    float: left;
+    width: 58px;
+    height: 21px;
+    text-align: center;
+    padding:5px;
+}
+.jumpto{
+    float: left;
+    width: 58px;
+    height: 21px;
+    padding:5px;
+    margin: 0;
+    border-radius: 3px;
+    border:1px solid lightgrey;
+}
